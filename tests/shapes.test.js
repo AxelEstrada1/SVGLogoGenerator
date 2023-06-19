@@ -1,4 +1,4 @@
-const {Triangle, Circle, Square} = require ("../../lib/shapes")
+const {Triangle, Circle, Square} = require ("./lib/shapes");
 
 test("render the triangle", () =>{
     const shape = new Triangle();
